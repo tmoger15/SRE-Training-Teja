@@ -11,7 +11,7 @@ pipeline {
         REPO_URI = "862848730563.dkr.ecr.ca-central-1.amazonaws.com/teja"
         DOCKER_IMAGE = "sre-training-cart:${VERSION}"
         DOCKER_REGISTRY = 'docker.io'
-        DOCKER_REGISTRY_CREDENTIALS = 'docker-creds'
+        DOCKER_REGISTRY_CREDENTIALS = 'Docker-Haani-Cred'
     }
 
     stages {
